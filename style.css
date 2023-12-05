@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: linear-gradient(to bottom, #009688 5%, #dbdbd3 95%);
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 30px;
+}
+
+li {
+  background: linear-gradient(to bottom, #009688 1%, #dbdbd3 99%);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}

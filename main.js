@@ -23,6 +23,7 @@ createApp({
   mounted() {
     for (let i = 0; i < 10; i++) {
       axios.get(this.apiUrl).then((laMiaApi) => {
+        console.log(laMiaApi.data.response);
         this.emailUtente.push(laMiaApi.data.response);
       });
     }
